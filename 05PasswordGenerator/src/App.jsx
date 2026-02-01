@@ -10,7 +10,10 @@ function App() {
    const copypasswordtoclipboard = useCallback(()=>{
     passwordRef.current?.select();
     window.navigator.clipboard.writeText(password)
+<<<<<<< HEAD
      
+=======
+>>>>>>> e3576c21c259d78444dcd15e9cb62a653d81975d
    },[password])
   const passwordgenerator=useCallback(()=>{
     let pass=""
